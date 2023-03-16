@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Demo" parallel="methods">
+
+	
+	
+	<test name="Caseys">
+		<classes>
+	
+			<class name="ProductDisplayPage"></class>
+			<class name="CheckoutAndStoreDetails"></class>
+			<class name="LoyaltyStorefront"></class>
+			<class name=" ManageCart"></class>
+			<class name="Sprint13"></class>
+			<class name="Sprint5"></class>
+			<class name="PromotionsCouponsDeals"></class>
+			<class name="Sprint14To19"></class> 
+			<class name="SprintR18"></class> 	
+		
+		</classes>
+	</test>
+	
+</suite> <!-- Default suite -->

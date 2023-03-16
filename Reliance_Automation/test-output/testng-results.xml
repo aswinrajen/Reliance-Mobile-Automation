@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-15T12:35:23 IST" name="Default suite" finished-at="2023-03-15T12:35:49 IST" duration-ms="26379">
+    <groups>
+    </groups>
+    <test started-at="2023-03-15T12:35:23 IST" name="Default test" finished-at="2023-03-15T12:35:49 IST" duration-ms="26379">
+      <class name="Reliance_Suites.TW_Module">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:Reliance_Suites.TW_Module@60db1c0e]" started-at="2023-03-15T12:35:23 IST" name="beforeTest" finished-at="2023-03-15T12:35:23 IST" duration-ms="61" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Reliance_Suites.TW_Module@60db1c0e]" started-at="2023-03-15T12:35:23 IST" name="beforeMethod" finished-at="2023-03-15T12:35:23 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="Credential(java.util.Map)[pri:0, instance:Reliance_Suites.TW_Module@60db1c0e]" started-at="2023-03-15T12:35:23 IST" name="Credential" data-provider="BrowserLaunch" finished-at="2023-03-15T12:35:48 IST" duration-ms="25293" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Branch0=Allopathy, Goods0=Non Hazardous, Password0=Pass@123, Travel Days0=25, Vehicle0=TRUCK, Traveltype0=Individual, Reg No0=12345, Engine0=156498, Passport Number0=E1546859, Salutation0=Mr., Communication Address0=Tester, DOB0=10-08-1990, FuelType0=Diesel, Number0=9865326598, Practice0=3, Name0=Tester, Ratio0=1:1, PanNo0=CBAPB4257P, Marital0=Single, Specilization0=Pathology, Month0=Aug, Pincode0=422001, Year0=1996, Destination Country0=Greece, LandMark0=Tester, Relation0=Son, TCountry0=Schengen, Nominee Relationship0=Brother, UserName0=100002, Chassis0=467265, Age0=23, Nominee Name0=Test, LName0=Test, TMobile Number0=9865326598, TYear0=1990, FName0=Test, Event Limit0=100000, Qualification0=MBBS, Cust0=Tester, Profession0=Specialist/Consulting Physician (Non Surgical), Proposer Relationship0=Self, Passed Year0=2006, TEmail0=Reliance@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Credential -->
+      </class> <!-- Reliance_Suites.TW_Module -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,5 @@
+2023-03-16 17:15:38 INFO  - **********************Test Started:TW_Module*************************************
+2023-03-16 17:15:45 INFO  - UserName is Entered - PASS 
+2023-03-16 17:15:47 INFO  - Password is Entered - PASS 
+2023-03-16 17:16:07 INFO  - Total Time taken in(seconds):0
+2023-03-16 17:16:07 INFO  - Total Time taken in(seconds):0
