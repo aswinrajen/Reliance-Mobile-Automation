@@ -5,8 +5,9 @@
     <classes>
       <class name="Reliance_Suites.TW_Module">
         <methods>
-          <include name="Credential" invocation-numbers="0"/>
           <include name="beforeMethod"/>
+          <include name="TwoWheelerLiability" invocation-numbers="0"/>
+          <include name="TwoWheeler" invocation-numbers="0"/>
           <include name="beforeTest"/>
         </methods>
       </class> <!-- Reliance_Suites.TW_Module -->

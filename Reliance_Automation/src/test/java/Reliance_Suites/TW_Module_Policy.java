@@ -13,9 +13,8 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-import Methods.GCV_Method;
-import Methods.OthersMethod;
 import Methods.TW_Method;
+import MobileWebLocators.TW;
 import TestNGListeners.CustomListener;
 import Utilities.ExcelDataUtil;
 import Utilities.HtmlReportUtil;
@@ -26,7 +25,7 @@ import Utilities.TestResults;
 import Utilities.Utility;
 
 @Listeners(CustomListener.class)
-public class TW_Module extends KeywordUtil {
+public class TW_Module_Policy extends KeywordUtil {
 	
 	/** The suite name. */
 	static String suiteName = "TW_Module";
@@ -52,7 +51,7 @@ public class TW_Module extends KeywordUtil {
 	static int retryingNumber = 1;
 	/** The this class. */
 	@SuppressWarnings("rawtypes")
-	static Class thisClass = TW_Module.class;
+	static Class thisClass = TW_Module_Policy.class;
 	/** The test case ID. */
 	static String testCaseID = thisClass.getSimpleName();
 	/** The step. */
@@ -95,9 +94,9 @@ public class TW_Module extends KeywordUtil {
 	@DataProvider(name = "BrowserLaunch")
 	public static Object[] BrowserLaunch() {
 		System.out.println("Test");
-		rows = getExecutionsNumber("Data");
+		rows = getExecutionsNumber("TW_NEW");
 		System.out.println("Rows : " + rows);
-		return Utility.dataSupplier("Data", rows);
+		return Utility.dataSupplier("TW_NEW", rows);
 	}
 
 	
@@ -161,6 +160,8 @@ public class TW_Module extends KeywordUtil {
 			// ------------------------//--------Code for method starts here---------
 			System.out.println("Test");
 			TW_Method.TwoWheeler(map);
+			TW_Method.VehicleDetails(map);
+			executeStep(clickByJavaScript(TW.finalClose), thisClass, "close button is clicked");
 
 			// ---------------------------//--------Code for method ends here---------
 		} catch (SkipException skip) {
@@ -192,6 +193,53 @@ public class TW_Module extends KeywordUtil {
 			runCount++;
 		}
 	}
+	
+	@Test(priority = 2, dataProvider = "BrowserLaunch", enabled = true)
+	public static void TwoWheelerLiability(Map<String, String> map) throws Exception {
+		System.out.println("Flag 1");
+		HtmlReportUtil.startReport(
+				"TWLiability creation",Utility.testData.getTestCaseSummary());
+		try {
+			isRun = ExcelDataUtil.getControls(suiteName, "TwoWheelerLiability");
+			if ((!isRun))
+				throw new SkipException("Skipping this exception");
+			System.out.println("Running for " + (runCount + 1) + " time");
+			//logStep = Utility.testData.getTestCaseSummary();
+			// ------------------------//--------Code for method starts here---------
+			System.out.println("Test");
+			executeStep(click(TW.hamburgerSubmit), thisClass, "HamburgerSubmit Menu is clicked");
+			TW_Method.TWLiability(map);
+//			executeStep(clickByJavaScript(TW.finalClose), thisClass, "close button is clicked");
 
+			// ---------------------------//--------Code for method ends here---------
+		} catch (SkipException skip) {
+			Utility.testException = skip;
+			throw skip;
+		} catch (Exception e) {
+			// LogUtil.infoLog(thisClass, KeywordUtil.step + " - FAIL ");
+			// HtmlReportUtil.stepFail(KeywordUtil.step);
+			if (retryCount > 0) {
+				String imagePath = Utility.takeScreenshot(driver, testCaseID + "_" + retryingNumber);
+				Utility.testResult.setFailedScreenShotReference(imagePath);
+				Utility.testException = e;
+				HtmlReportUtil.attachScreenshot(imagePath, true);
+				HtmlReportUtil.stepInfo("Trying to Rerun" + " " + testCaseID + " for " + retryingNumber + " time");
+				retryCount--;
+				retryingNumber++;
+				LogUtil.infoLog(thisClass, "****************Waiting for " + getIntValue("retryDelayTime")
+						+ " Secs before retrying.***********");
+				executionDelay(getIntValue("retryDelayTime"));
+			} else {
+				String imagePath = Utility.takeScreenshot(driver, testCaseID);
+				Utility.testResult.setFailedScreenShotReference(imagePath);
+				HtmlReportUtil.stepError(testCaseID, e);
+				Utility.testException = e;
+				HtmlReportUtil.attachScreenshot(imagePath, true);
+				Assert.fail();
+			}
+		} finally {
+			runCount++;
+		}
+	}
 }
 	

@@ -1,5 +1,91 @@
-2023-03-16 17:15:38 INFO  - **********************Test Started:TW_Module*************************************
-2023-03-16 17:15:45 INFO  - UserName is Entered - PASS 
-2023-03-16 17:15:47 INFO  - Password is Entered - PASS 
-2023-03-16 17:16:07 INFO  - Total Time taken in(seconds):0
-2023-03-16 17:16:07 INFO  - Total Time taken in(seconds):0
+2023-03-29 19:16:51 INFO  - **********************Test Started:TW_Module*************************************
+2023-03-29 19:16:57 INFO  - UserName is Entered - PASS 
+2023-03-29 19:16:59 INFO  - Password is Entered - PASS 
+2023-03-29 19:17:27 INFO  - Login Page Landed - PASS 
+2023-03-29 19:17:27 INFO  - Total Time taken in(seconds):0
+2023-03-29 19:17:33 INFO  - Hamburger Menu is clicked - PASS 
+2023-03-29 19:17:35 INFO  - Motor Module is selected - PASS 
+2023-03-29 19:17:38 INFO  - Two wheeler Policy is selected - PASS 
+2023-03-29 19:17:40 INFO  - Create Policy is opened - PASS 
+2023-03-29 19:17:42 INFO  - Selling package is selected - PASS 
+2023-03-29 19:17:44 INFO  - new two wheeler Policy is clicked - PASS 
+2023-03-29 19:17:54 INFO  - new Policy is opened - PASS 
+2023-03-29 19:17:56 INFO  - DOB is entered - PASS 
+2023-03-29 19:17:58 INFO  - pan no is entered - PASS 
+2023-03-29 19:18:01 INFO  - Verify PAN is selected - PASS 
+2023-03-29 19:18:03 INFO  - Customer Details Page is Clicked - PASS 
+2023-03-29 19:18:05 INFO  - Marital Status is Selected - PASS 
+2023-03-29 19:18:07 INFO  - Continue is Clicked - PASS 
+2023-03-29 19:18:09 INFO  - Mobile Number is Entered - PASS 
+2023-03-29 19:18:15 INFO  - Continue is Clicked - PASS 
+2023-03-29 19:18:18 INFO  - VehicleDetailsButton is clicked - PASS 
+2023-03-29 19:18:20 INFO  - customer_1 is entered - PASS 
+2023-03-29 19:18:23 INFO  - customer_2 is entered - PASS 
+2023-03-29 19:18:29 INFO  - save is clicked - PASS 
+2023-03-29 19:18:31 INFO  - VehicleDetailsButton is clicked - PASS 
+2023-03-29 19:18:34 INFO  - model variant is selected - PASS 
+2023-03-29 19:18:36 INFO  - brand is entered - PASS 
+2023-03-29 19:18:39 INFO  - variant is entered - PASS 
+2023-03-29 19:18:40 INFO  - FuelType is selected - PASS 
+2023-03-29 19:18:43 INFO  - rtoLocation is clicked - PASS 
+2023-03-29 19:18:46 INFO  - locationRegistered is clicked - PASS 
+2023-03-29 19:18:48 INFO  - Location is entered - PASS 
+2023-03-29 19:18:50 INFO  - DOB is entered - PASS 
+2023-03-29 19:18:52 INFO  - purchase date is entered - PASS 
+2023-03-29 19:18:55 INFO  - RegisteredDate is entered - PASS 
+2023-03-29 19:18:57 INFO  - Engine is entered - PASS 
+2023-03-29 19:18:59 INFO  - Engine is entered - PASS 
+2023-03-29 19:19:02 INFO  - Chassis is entered - PASS 
+2023-03-29 19:19:14 INFO  - cover details is clicked - PASS 
+2023-03-29 19:19:21 INFO  - model summary button is clicked - PASS 
+2023-03-29 19:19:24 INFO  - Name is entered - PASS 
+2023-03-29 19:19:26 INFO  - Age is entered - PASS 
+2023-03-29 19:19:28 INFO  - Relation is entered - PASS 
+2023-03-29 19:19:35 INFO  - continue button is clicked - PASS 
+2023-03-29 19:19:42 INFO  - model summary button is clicked - PASS 
+2023-03-29 19:19:49 INFO  - inspection details button is clicked - PASS 
+2023-03-29 19:19:55 INFO  - calculate premium button is clicked - PASS 
+2023-03-29 19:20:02 INFO  - close button is clicked - PASS 
+2023-03-29 19:20:02 INFO  - Total Time taken in(seconds):0
+2023-03-29 19:20:08 INFO  - HamburgerSubmit Menu is clicked - PASS 
+2023-03-29 19:20:11 INFO  - Motor Module is selected - PASS 
+2023-03-29 19:20:13 INFO  - Two wheeler Policy is selected - PASS 
+2023-03-29 19:20:16 INFO  - Create Policy is opened - PASS 
+2023-03-29 19:20:19 INFO  - liability is selected - PASS 
+2023-03-29 19:20:21 INFO  - liabilityNew Policy is clicked - PASS 
+2023-03-29 19:20:34 INFO  - liabilityNewPolicy is opened - PASS 
+2023-03-29 19:20:36 INFO  - DOB is entered - PASS 
+2023-03-29 19:20:39 INFO  - pan no is entered - PASS 
+2023-03-29 19:20:42 INFO  - Verify PAN is selected - PASS 
+2023-03-29 19:20:45 INFO  - Customer Details Page is Clicked - PASS 
+2023-03-29 19:20:48 INFO  - Marital Status is Selected - PASS 
+2023-03-29 19:20:51 INFO  - Continue is Clicked - PASS 
+2023-03-29 19:20:54 INFO  - Mobile Number is Entered - PASS 
+2023-03-29 19:21:00 INFO  - Continue is Clicked - PASS 
+2023-03-29 19:21:03 INFO  - VehicleDetailsButton is clicked - PASS 
+2023-03-29 19:21:06 INFO  - customer_1 is entered - PASS 
+2023-03-29 19:21:09 INFO  - customer_2 is entered - PASS 
+2023-03-29 19:21:16 INFO  - save is clicked - PASS 
+2023-03-29 19:21:19 INFO  - VehicleDetailsButton is clicked - PASS 
+2023-03-29 19:21:22 INFO  - model variant is selected - PASS 
+2023-03-29 19:21:25 INFO  - brand is entered - PASS 
+2023-03-29 19:21:28 INFO  - variant is entered - PASS 
+2023-03-29 19:21:30 INFO  - FuelType is selected - PASS 
+2023-03-29 19:21:34 INFO  - rtoLocation is clicked - PASS 
+2023-03-29 19:21:38 INFO  - locationRegistered is clicked - PASS 
+2023-03-29 19:21:41 INFO  - Location is entered - PASS 
+2023-03-29 19:21:43 INFO  - DOB is entered - PASS 
+2023-03-29 19:21:51 INFO  - purchase date is entered - PASS 
+2023-03-29 19:21:54 INFO  - RegisteredDate is entered - PASS 
+2023-03-29 19:21:58 INFO  - Engine is entered - PASS 
+2023-03-29 19:22:00 INFO  - Engine is entered - PASS 
+2023-03-29 19:22:03 INFO  - Chassis is entered - PASS 
+2023-03-29 19:22:13 INFO  - cover details is clicked - PASS 
+2023-03-29 19:22:22 INFO  - Name is entered - PASS 
+2023-03-29 19:22:25 INFO  - Age is entered - PASS 
+2023-03-29 19:22:27 INFO  - Relation is entered - PASS 
+2023-03-29 19:22:34 INFO  - continue button is clicked - PASS 
+2023-03-29 19:22:41 INFO  - model summary button is clicked - PASS 
+2023-03-29 19:22:48 INFO  - inspection details button is clicked - PASS 
+2023-03-29 19:22:54 INFO  - calculate premium button is clicked - PASS 
+2023-03-29 19:22:54 INFO  - Total Time taken in(seconds):0
